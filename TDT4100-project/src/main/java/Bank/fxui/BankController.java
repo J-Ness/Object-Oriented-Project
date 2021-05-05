@@ -103,7 +103,6 @@ public class BankController{
 	private void handleOutputAccountInfo() {
 		if (accountID != null)
 			if (outputAccountInfo.getSelectionModel().getSelectedItem() != null) {
-				System.out.println(outputAccountInfo.getSelectionModel().getSelectedItem());
 				accountID.setText((outputAccountInfo.getSelectionModel().getSelectedItem()).getAccountID());
 			}
 	}

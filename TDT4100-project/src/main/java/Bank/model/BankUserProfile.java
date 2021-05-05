@@ -110,8 +110,6 @@ public class BankUserProfile {
 			}
 			
 			if (!splitName[0].equals(elEmail[0]) || !splitName[1].equals(elEmail[1])) {
-				//if (!elEmail[2].equals("ntnu")) {
-				System.out.println(this.name + splitName[0] + splitName[1]);
 				throw new IllegalArgumentException("Your name must match the email");
 			    
 			}
